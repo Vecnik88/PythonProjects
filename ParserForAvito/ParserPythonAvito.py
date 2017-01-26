@@ -90,7 +90,7 @@ def get_page_data(html):
 def main():
 	# https://www.avito.ru/moskva/avtomobili?p=1&q=volvo <---. url parsing
 
-	url = https://www.avito.ru/moskva/avtomobili?p=1&q=volvo
+	url = 'https://www.avito.ru/moskva/avtomobili?p=1&q=volvo'
 
 	base_url = 'https://www.avito.ru/moskva/avtomobili?' # <---. неизменная часть запроса
 	page_part = 'p='    # <---. сюда будем подставлять номер страницы
